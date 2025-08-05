@@ -1,14 +1,32 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    navigate('/');
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-neon-green/30">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="text-3xl font-bold text-hot-orange animate-neon-pulse">
+            <div
+              className="text-3xl font-bold text-hot-orange animate-neon-pulse cursor-pointer hover:scale-105 transition-transform duration-300"
+              onClick={handleHomeClick}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  handleHomeClick();
+                }
+              }}
+              aria-label="Go to home page"
+            >
               $BONKAT
             </div>
           </div>
