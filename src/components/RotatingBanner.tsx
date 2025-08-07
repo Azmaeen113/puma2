@@ -20,7 +20,7 @@ const RotatingBanner = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-2xl shadow-glow mb-8">
+    <div className="relative w-80 h-80 md:w-96 md:h-96 mx-auto overflow-hidden rounded-2xl shadow-glow mb-8">
       {bannerImages.map((image, index) => (
         <div
           key={index}
@@ -33,11 +33,7 @@ const RotatingBanner = () => {
           <img
             src={image}
             alt={`BONKAT Hero ${index + 1}`}
-            className="w-full h-full object-cover"
-            style={{
-              transform: index >= 3 ? 'scale(0.33)' : 'scale(1)',
-              transformOrigin: 'center center'
-            }}
+            className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-gradient-neon/20"></div>
         </div>
