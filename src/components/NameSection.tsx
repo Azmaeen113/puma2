@@ -37,10 +37,10 @@ const NameSection = () => {
 
           {/* Featured Image */}
           <div className="mt-16">
-            <img 
-              src="/lovable-uploads/5fc7e9f5-9724-4b85-b3e5-b3e78dd2f64a.png" 
+            <img
+              src="/lovable-uploads/5fc7e9f5-9724-4b85-b3e5-b3e78dd2f64a.png"
               alt="FAIRYING BONKAT"
-              className="w-64 h-64 md:w-80 md:h-80 mx-auto object-cover rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
+              className="w-64 h-64 md:w-80 md:h-80 mx-auto object-contain rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>

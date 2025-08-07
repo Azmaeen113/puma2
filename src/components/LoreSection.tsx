@@ -47,39 +47,39 @@ const LoreSection = () => {
           {/* Enhanced Image Gallery with New Images */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="space-y-6">
-              <img 
-                src="/lovable-uploads/5fb3d239-dc43-4da8-8309-0db30a0fc343.png" 
+              <img
+                src="/lovable-uploads/5fb3d239-dc43-4da8-8309-0db30a0fc343.png"
                 alt="BONKAT Character"
-                className="w-full h-48 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
               />
-              <img 
-                src="/lovable-uploads/596e2a54-459c-46fb-b8fe-fc93c64aae5c.png" 
+              <img
+                src="/lovable-uploads/596e2a54-459c-46fb-b8fe-fc93c64aae5c.png"
                 alt="Red Cap BONKAT"
-                className="w-full h-40 object-cover rounded-xl shadow-neon hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-neon hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="space-y-6 pt-8">
-              <img 
-                src="/lovable-uploads/b44f7497-94a6-449e-a12a-d62301150a86.png" 
+              <img
+                src="/lovable-uploads/b44f7497-94a6-449e-a12a-d62301150a86.png"
                 alt="BONKAT Character"
-                className="w-full h-40 object-cover rounded-xl shadow-blue hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-blue hover:scale-105 transition-transform duration-300"
               />
-              <img 
-                src="/lovable-uploads/dcf77ab8-dc5a-4d74-a28a-7df86a3ef408.png" 
+              <img
+                src="/lovable-uploads/dcf77ab8-dc5a-4d74-a28a-7df86a3ef408.png"
                 alt="Matrix BONKAT"
-                className="w-full h-48 object-cover rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="space-y-6 hidden md:block">
-              <img 
-                src="/lovable-uploads/0819507e-ee92-4c20-bd3c-29bc1f9ae46f.png" 
+              <img
+                src="/lovable-uploads/0819507e-ee92-4c20-bd3c-29bc1f9ae46f.png"
                 alt="Matrix BONKAT Orange"
-                className="w-full h-48 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
               />
-              <img 
-                src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png" 
+              <img
+                src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png"
                 alt="Patriot BONKAT"
-                className="w-full h-40 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>

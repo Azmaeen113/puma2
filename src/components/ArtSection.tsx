@@ -29,15 +29,15 @@ const ArtSection = () => {
               <div className="bg-card/50 border border-hot-orange/30 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-crypto-gold mb-4">Alleyway Gamblers</h3>
                 <div className="grid grid-cols-1 gap-4">
-                  <img 
-                    src="/lovable-uploads/95b3b72d-53fc-4132-a0df-60a3b6c5fc3e.png" 
+                  <img
+                    src="/lovable-uploads/95b3b72d-53fc-4132-a0df-60a3b6c5fc3e.png"
                     alt="Matrix Gambler BONKAT"
-                    className="w-full h-40 object-cover rounded-lg shadow-glow hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-glow hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/lovable-uploads/9fba653d-d2b9-4678-8ef4-a06cf8229ec3.png" 
+                  <img
+                    src="/lovable-uploads/9fba653d-d2b9-4678-8ef4-a06cf8229ec3.png"
                     alt="Baseball Gambler BONKAT"
-                    className="w-full h-40 object-cover rounded-lg shadow-orange hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-orange hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>
@@ -47,25 +47,25 @@ const ArtSection = () => {
               <div className="bg-card/50 border border-neon-blue/30 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-neon-blue mb-4">Combat Units & Patriots</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  <img 
-                    src="/lovable-uploads/a06de617-aa42-4e27-9c68-8e3d0c208ef4.png" 
+                  <img
+                    src="/lovable-uploads/a06de617-aa42-4e27-9c68-8e3d0c208ef4.png"
                     alt="Soldier BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-blue hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-blue hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/lovable-uploads/db2161b0-c841-4769-8ded-a40fa80aef5a.png" 
+                  <img
+                    src="/lovable-uploads/db2161b0-c841-4769-8ded-a40fa80aef5a.png"
                     alt="Combat BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-glow hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-glow hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png" 
+                  <img
+                    src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png"
                     alt="Patriot BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-orange hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-orange hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/lovable-uploads/ac2836e3-53a0-4e9a-8fc2-49ae1ebdcd73.png" 
+                  <img
+                    src="/lovable-uploads/ac2836e3-53a0-4e9a-8fc2-49ae1ebdcd73.png"
                     alt="Hat BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-gold hover:scale-105 transition-transform duration-300"
+                    className="w-full aspect-square object-contain rounded-lg shadow-gold hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>

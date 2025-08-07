@@ -46,20 +46,20 @@ const PromiseSection = () => {
 
           {/* Featured Images Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-            <img 
-              src="/lovable-uploads/d452feb1-186f-4b2f-bc2b-9ab8f2c30a1f.png" 
+            <img
+              src="/lovable-uploads/d452feb1-186f-4b2f-bc2b-9ab8f2c30a1f.png"
               alt="BONKAT Promise"
-              className="w-full h-48 object-cover rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
+              className="w-full aspect-square object-contain rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
             />
-            <img 
-              src="/lovable-uploads/764fae12-a29f-4de0-9541-5fd737beb0d8.png" 
+            <img
+              src="/lovable-uploads/764fae12-a29f-4de0-9541-5fd737beb0d8.png"
               alt="Night BONKAT"
-              className="w-full h-48 object-cover rounded-xl shadow-blue hover:scale-105 transition-transform duration-300"
+              className="w-full aspect-square object-contain rounded-xl shadow-blue hover:scale-105 transition-transform duration-300"
             />
-            <img 
-              src="/lovable-uploads/89bc50a6-b7ce-4412-9929-086998d520d1.png" 
+            <img
+              src="/lovable-uploads/89bc50a6-b7ce-4412-9929-086998d520d1.png"
               alt="McBONKAT"
-              className="w-full h-48 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
+              className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
             />
           </div>
 

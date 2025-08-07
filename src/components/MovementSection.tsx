@@ -55,33 +55,33 @@ const MovementSection = () => {
 
           {/* Expanded Gallery of Characters */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-16">
-            <img 
-              src="/lovable-uploads/5fb3d239-dc43-4da8-8309-0db30a0fc343.png" 
+            <img
+              src="/lovable-uploads/5fb3d239-dc43-4da8-8309-0db30a0fc343.png"
               alt="BONKAT Memer"
-              className="w-full h-32 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
+              className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
             />
-            <img 
-              src="/lovable-uploads/5fc7e9f5-9724-4b85-b3e5-b3e78dd2f64a.png" 
+            <img
+              src="/lovable-uploads/5fc7e9f5-9724-4b85-b3e5-b3e78dd2f64a.png"
               alt="BONKAT Trader"
-              className="w-full h-32 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
+              className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
               style={{ animationDelay: '0.5s' }}
             />
-            <img 
-              src="/lovable-uploads/596e2a54-459c-46fb-b8fe-fc93c64aae5c.png" 
+            <img
+              src="/lovable-uploads/596e2a54-459c-46fb-b8fe-fc93c64aae5c.png"
               alt="Red Cap BONKAT"
-              className="w-full h-32 object-cover rounded-xl shadow-gold hover:scale-105 transition-transform duration-300 animate-float"
+              className="w-full aspect-square object-contain rounded-xl shadow-gold hover:scale-105 transition-transform duration-300 animate-float"
               style={{ animationDelay: '1s' }}
             />
-            <img 
-              src="/lovable-uploads/dcf77ab8-dc5a-4d74-a28a-7df86a3ef408.png" 
+            <img
+              src="/lovable-uploads/dcf77ab8-dc5a-4d74-a28a-7df86a3ef408.png"
               alt="Matrix BONKAT"
-              className="w-full h-32 object-cover rounded-xl shadow-glow hover:scale-105 transition-transform duration-300 animate-float"
+              className="w-full aspect-square object-contain rounded-xl shadow-glow hover:scale-105 transition-transform duration-300 animate-float"
               style={{ animationDelay: '1.5s' }}
             />
-            <img 
-              src="/lovable-uploads/0a5bc86f-cd9e-44d7-8122-cecc5366e6f6.png" 
+            <img
+              src="/lovable-uploads/0a5bc86f-cd9e-44d7-8122-cecc5366e6f6.png"
               alt="Diamond BONKAT"
-              className="w-full h-32 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
+              className="w-full aspect-square object-contain rounded-xl shadow-orange hover:scale-105 transition-transform duration-300 animate-float"
               style={{ animationDelay: '2s' }}
             />
           </div>

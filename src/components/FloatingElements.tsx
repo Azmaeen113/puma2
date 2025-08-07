@@ -59,7 +59,7 @@ const FloatingElements = () => {
             <img
               src={image.src}
               alt={`Left BONKAT ${index + 1}`}
-              className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-contain rounded-xl hover:scale-105 transition-transform duration-300"
             />
           </div>
         ))}
@@ -79,7 +79,7 @@ const FloatingElements = () => {
             <img
               src={image.src}
               alt={`Right BONKAT ${index + 1}`}
-              className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-contain rounded-xl hover:scale-105 transition-transform duration-300"
             />
           </div>
         ))}
