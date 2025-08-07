@@ -25,19 +25,19 @@ const FloatingElements = () => {
   const rightSideImages = [
     {
       src: '/lovable-uploads/0819507e-ee92-4c20-bd3c-29bc1f9ae46f.png',
-      size: 'w-30 h-30 md:w-38 md:h-38',
+      size: 'w-10 h-10 md:w-13 md:h-13',
       position: 'top-32',
       delay: '0.5s'
     },
     {
       src: '/lovable-uploads/db2161b0-c841-4769-8ded-a40fa80aef5a.png',
-      size: 'w-26 h-26 md:w-34 md:h-34',
+      size: 'w-9 h-9 md:w-11 md:h-11',
       position: 'top-80',
       delay: '1.5s'
     },
     {
       src: '/lovable-uploads/4d24d52e-9d6a-4259-aa49-1b8ddb0a9797.png',
-      size: 'w-28 h-28 md:w-36 md:h-36',
+      size: 'w-9 h-9 md:w-12 md:h-12',
       position: 'bottom-32',
       delay: '2.5s'
     }
@@ -84,7 +84,9 @@ const FloatingElements = () => {
               alt={`Right BONKAT ${index + 1}`}
               className="w-full h-full object-cover rounded-xl shadow-orange hover:scale-110 transition-transform duration-300"
               style={{
-                filter: 'drop-shadow(0 0 20px rgba(255, 102, 0, 0.4))'
+                filter: 'drop-shadow(0 0 20px rgba(255, 102, 0, 0.4))',
+                transform: 'scale(0.33)',
+                transformOrigin: 'center center'
               }}
             />
           </div>
