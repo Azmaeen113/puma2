@@ -34,6 +34,10 @@ const RotatingBanner = () => {
             src={image}
             alt={`BONKAT Hero ${index + 1}`}
             className="w-full h-full object-cover"
+            style={{
+              transform: index >= 3 ? 'scale(0.33)' : 'scale(1)',
+              transformOrigin: 'center center'
+            }}
           />
           <div className="absolute inset-0 bg-gradient-neon/20"></div>
         </div>
