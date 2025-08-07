@@ -16,7 +16,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div
-              className="text-3xl font-bold text-hot-orange animate-neon-pulse cursor-pointer hover:scale-105 transition-transform duration-300"
+              className="text-3xl pixel-title text-hot-orange animate-neon-pulse cursor-pointer hover:scale-105 transition-transform duration-300"
               onClick={handleHomeClick}
               role="button"
               tabIndex={0}
@@ -33,21 +33,21 @@ const Header = () => {
 
           {/* Navigation & Social Icons */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a 
-              href="#lore" 
-              className="text-foreground hover:text-hot-orange transition-colors duration-300 uppercase tracking-wider font-semibold"
+            <a
+              href="#lore"
+              className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
               The Lore
             </a>
-            <a 
-              href="#cats" 
-              className="text-foreground hover:text-hot-orange transition-colors duration-300 uppercase tracking-wider font-semibold"
+            <a
+              href="#cats"
+              className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
               The Cats
             </a>
-            <a 
-              href="#movement" 
-              className="text-foreground hover:text-hot-orange transition-colors duration-300 uppercase tracking-wider font-semibold"
+            <a
+              href="#movement"
+              className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
               Movement
             </a>

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="md:col-span-2">
-            <div className="text-3xl font-black text-hot-orange mb-4 animate-neon-pulse">
+            <div className="text-3xl pixel-title text-hot-orange mb-4 animate-neon-pulse">
               $BONKAT
             </div>
             <p className="text-foreground/70 mb-4">
@@ -22,7 +22,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold text-hot-orange mb-4 uppercase">Navigate</h3>
+            <h3 className="text-lg pixel-font text-hot-orange mb-4">Navigate</h3>
             <div className="space-y-2">
               <a href="#lore" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Lore</a>
               <a href="#cats" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Cats</a>

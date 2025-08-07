@@ -16,7 +16,7 @@ const NameSection = () => {
               Let's talk about the name.
             </p>
             
-            <div className="text-3xl md:text-5xl font-black text-hot-orange my-12 animate-neon-pulse">
+            <div className="text-3xl md:text-5xl pixel-title text-hot-orange my-12 animate-neon-pulse">
               BONKAT = BONK + CAT
             </div>
             
@@ -27,7 +27,7 @@ const NameSection = () => {
             </p>
             
             <div className="bg-card/50 border border-hot-orange/30 rounded-xl p-8 mt-12">
-              <p className="text-xl md:text-2xl font-bold text-neon-blue">
+              <p className="text-xl md:text-2xl pixel-tagline text-crypto-gold">
                 Because <span className="text-hot-orange">BONK</span> changed Solana.
                 <br />
                 And now <span className="text-hot-orange">BONKAT</span> is going to change how we PFP.

@@ -6,7 +6,7 @@ const CatsSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-7xl font-black text-hot-orange mb-6 animate-neon-pulse">
+          <h2 className="text-5xl md:text-7xl pixel-title text-hot-orange mb-6 animate-neon-pulse">
             THE CATS
           </h2>
           <div className="w-32 h-1 bg-gradient-fire mx-auto rounded-full"></div>
@@ -15,11 +15,11 @@ const CatsSection = () => {
         {/* Main Content */}
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-2xl md:text-3xl font-bold text-hot-orange mb-8">
+            <p className="text-2xl md:text-3xl pixel-tagline text-hot-orange mb-8">
               These aren't your girlfriend's cozy little kittens.
             </p>
             <p className="text-lg md:text-xl text-foreground/90 leading-relaxed max-w-4xl mx-auto">
-              These are <span className="text-neon-blue font-semibold">Solana-native, alpha-chasing, chart-watching beasts.</span>
+              These are <span className="text-crypto-gold font-semibold">Solana-native, alpha-chasing, chart-watching beasts.</span>
               <br />
               They don't meow—they <span className="text-hot-orange font-bold">yowl when volume's dry</span> and <span className="text-crypto-gold font-bold">purr when the pump is live.</span>
             </p>
@@ -27,18 +27,18 @@ const CatsSection = () => {
 
           {/* Mission Statement */}
           <div className="bg-card/50 border border-hot-orange/30 rounded-2xl p-8 md:p-12 mb-16">
-            <h3 className="text-3xl md:text-4xl font-black text-neon-blue mb-8 text-center">
+            <h3 className="text-3xl md:text-4xl pixel-title text-crypto-gold mb-8 text-center">
               THEIR JOB?
             </h3>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="space-y-4">
-                <div className="text-2xl font-bold text-crypto-gold">
+                <div className="text-2xl pixel-tagline text-crypto-gold">
                   To make every trader rich.
                 </div>
                 <div className="w-16 h-1 bg-crypto-gold mx-auto rounded-full"></div>
               </div>
               <div className="space-y-4">
-                <div className="text-2xl font-bold text-hot-orange">
+                <div className="text-2xl pixel-tagline text-hot-orange">
                   To bonk your bags into orbit.
                 </div>
                 <div className="w-16 h-1 bg-hot-orange mx-auto rounded-full"></div>
@@ -102,7 +102,7 @@ const CatsSection = () => {
               <img 
                 src="/lovable-uploads/4d24d52e-9d6a-4259-aa49-1b8ddb0a9797.png" 
                 alt="Worker BONKAT"
-                className="w-full h-48 object-cover rounded-xl shadow-neon hover:scale-105 transition-transform duration-300"
+                className="w-full h-48 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>

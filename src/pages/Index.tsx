@@ -33,7 +33,7 @@ const Index = () => {
       
       {/* Floating CTA Button */}
       <div className="fixed bottom-8 right-8 z-50">
-        <button className="bg-gradient-fire text-primary-foreground px-6 py-3 rounded-full font-bold uppercase tracking-wider shadow-orange hover:scale-110 transition-transform duration-300 animate-float">
+        <button className="bg-gradient-fire text-primary-foreground px-6 py-3 rounded-full pixel-font shadow-orange hover:scale-110 transition-transform duration-300 animate-float">
           Buy $BONKAT
         </button>
       </div>

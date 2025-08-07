@@ -16,13 +16,13 @@ const LoreSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <div className="space-y-8">
-            <div className="text-2xl md:text-3xl font-bold text-hot-orange mb-8">
+            <div className="text-2xl md:text-3xl pixel-tagline text-hot-orange mb-8">
               $BONKAT: The Lore of the First Bonkified Cats
             </div>
             
             <div className="space-y-6 text-lg md:text-xl leading-relaxed">
               <p className="text-foreground/90">
-                Somewhere between the chaos of <span className="text-neon-blue font-semibold">pump.fun</span> and the collapse of your last rug, the <span className="text-hot-orange font-bold">BONKATS</span> were born on BONK.
+                Somewhere between the chaos of <span className="text-crypto-gold font-semibold">pump.fun</span> and the collapse of your last rug, the <span className="text-hot-orange font-bold">BONKATS</span> were born on BONK.
               </p>
               
               <p className="text-foreground/90">

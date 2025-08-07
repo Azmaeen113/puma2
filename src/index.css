@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -127,26 +127,32 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
-  /* Pixel Font Classes */
+  /* Pixelated Font Classes */
   .pixel-font {
-    font-family: 'Orbitron', 'Courier New', monospace;
-    font-weight: 900;
-    letter-spacing: 0.1em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
   }
 
   .pixel-title {
-    font-family: 'Orbitron', 'Courier New', monospace;
-    font-weight: 900;
-    letter-spacing: 0.15em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 0 0 10px hsl(var(--hot-orange) / 0.5);
   }
 
   .pixel-tagline {
-    font-family: 'Orbitron', 'Courier New', monospace;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
   }
 

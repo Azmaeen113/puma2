@@ -6,19 +6,19 @@ const ArtSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-7xl font-black text-neon-blue mb-6 animate-neon-pulse">
+          <h2 className="text-5xl md:text-7xl pixel-title text-hot-orange mb-6 animate-neon-pulse">
             THE ART
           </h2>
-          <div className="w-32 h-1 bg-gradient-neon mx-auto rounded-full"></div>
+          <div className="w-32 h-1 bg-gradient-fire mx-auto rounded-full"></div>
         </div>
 
         <div className="max-w-6xl mx-auto">
           {/* Intro */}
           <div className="text-center mb-16">
-            <p className="text-2xl md:text-3xl font-bold text-hot-orange mb-8">
+            <p className="text-2xl md:text-3xl pixel-tagline text-hot-orange mb-8">
               Now, the art.
             </p>
-            <p className="text-xl md:text-2xl text-hot-orange font-semibold">
+            <p className="text-xl md:text-2xl pixel-tagline text-hot-orange">
               Pixelated. Purposeful. Proud.
             </p>
           </div>
