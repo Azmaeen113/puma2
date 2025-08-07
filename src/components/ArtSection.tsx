@@ -60,12 +60,12 @@ const ArtSection = () => {
                   <img 
                     src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png" 
                     alt="Patriot BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-blue hover:scale-105 transition-transform duration-300"
+                    className="w-full h-32 object-cover rounded-lg shadow-orange hover:scale-105 transition-transform duration-300"
                   />
                   <img 
                     src="/lovable-uploads/ac2836e3-53a0-4e9a-8fc2-49ae1ebdcd73.png" 
                     alt="Hat BONKAT"
-                    className="w-full h-32 object-cover rounded-lg shadow-neon hover:scale-105 transition-transform duration-300"
+                    className="w-full h-32 object-cover rounded-lg shadow-gold hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>
@@ -108,7 +108,7 @@ const ArtSection = () => {
               <p className="text-xl text-foreground/90">
                 They're all a part of <span className="text-hot-orange font-bold">BONKAT</span> now.
                 <br />
-                <span className="text-neon-blue font-semibold">Immortal. Irreverent. Inevitable.</span>
+                <span className="text-crypto-gold font-semibold">Immortal. Irreverent. Inevitable.</span>
               </p>
             </div>
           </div>

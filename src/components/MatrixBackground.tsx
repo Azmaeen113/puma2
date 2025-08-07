@@ -35,7 +35,7 @@ const MatrixBackground = () => {
       ctx.fillStyle = 'rgba(34, 39, 46, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = '#00ff00';
+      ctx.fillStyle = '#ff6600';
       ctx.font = `${fontSize}px 'Courier New', monospace`;
 
       for (let i = 0; i < drops.length; i++) {

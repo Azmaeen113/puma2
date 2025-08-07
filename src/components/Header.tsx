@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-neon-green/30">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-hot-orange/30">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -59,7 +59,7 @@ const Header = () => {
                 href="https://x.com/BonkKats" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-card border border-neon-green/50 rounded-lg flex items-center justify-center hover:bg-neon-green hover:text-primary-foreground transition-all duration-300 shadow-neon p-1"
+                className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
               >
                 <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain" />
               </a>
@@ -69,7 +69,7 @@ const Header = () => {
                 href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-card border border-neon-blue/50 rounded-lg flex items-center justify-center hover:bg-neon-blue hover:text-primary-foreground transition-all duration-300 shadow-blue p-1"
+                className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-1"
               >
                 <img src="/lovable-uploads/e378a84a-a087-40e1-9bc2-238a260ab03b.png" alt="DexScreener" className="w-8 h-8 object-contain" />
               </a>
@@ -99,7 +99,7 @@ const Header = () => {
                 href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-card border border-glow-cyan/50 rounded-lg flex items-center justify-center hover:bg-glow-cyan hover:text-primary-foreground transition-all duration-300 p-1"
+                className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 p-1"
               >
                 <img src="/lovable-uploads/2ef7035f-761c-4646-b3e5-747206462360.png" alt="TikTok" className="w-8 h-8 object-contain" />
               </a>
@@ -107,7 +107,7 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <Button variant="cyber" size="sm" className="md:hidden">
+          <Button variant="outline" size="sm" className="md:hidden pixel-font">
             MENU
           </Button>
         </div>

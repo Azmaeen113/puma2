@@ -62,24 +62,21 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// BONKAT Cyberpunk Colors
-				'neon-green': 'hsl(var(--neon-green))',
-				'neon-blue': 'hsl(var(--neon-blue))',
+				// BONKAT Colors - Orange, Yellow, Black, White Only
 				'hot-orange': 'hsl(var(--hot-orange))',
 				'crypto-gold': 'hsl(var(--crypto-gold))',
 				'matrix-black': 'hsl(var(--matrix-black))',
-				'glow-cyan': 'hsl(var(--glow-cyan))'
+				'pure-white': 'hsl(var(--pure-white))'
 			},
 			backgroundImage: {
 				'gradient-matrix': 'var(--gradient-matrix)',
-				'gradient-neon': 'var(--gradient-neon)',
 				'gradient-fire': 'var(--gradient-fire)',
+				'gradient-gold': 'var(--gradient-gold)',
 				'gradient-cyber': 'var(--gradient-cyber)'
 			},
 			boxShadow: {
-				'neon': 'var(--shadow-neon)',
-				'blue': 'var(--shadow-blue)',
 				'orange': 'var(--shadow-orange)',
+				'gold': 'var(--shadow-gold)',
 				'glow': 'var(--glow-matrix)'
 			},
 			transitionTimingFunction: {

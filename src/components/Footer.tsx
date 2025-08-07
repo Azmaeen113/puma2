@@ -70,7 +70,7 @@ const Footer = () => {
                 href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block text-foreground/70 hover:text-glow-cyan transition-colors"
+                className="block text-foreground/70 hover:text-hot-orange transition-colors"
               >
                 TikTok
               </a>

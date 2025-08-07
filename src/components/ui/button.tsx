@@ -9,16 +9,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-neon hover:shadow-glow",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-orange hover:shadow-glow",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground shadow-neon",
+          "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground shadow-orange",
         secondary:
           "bg-gradient-fire text-primary-foreground hover:scale-105 shadow-orange",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        neon: "bg-gradient-neon text-primary-foreground hover:scale-105 shadow-blue animate-neon-pulse",
         cyber: "bg-card border-2 border-hot-orange text-hot-orange hover:bg-hot-orange hover:text-primary-foreground shadow-orange transition-all duration-300",
         degen: "bg-hot-orange text-primary-foreground hover:bg-hot-orange/90 shadow-orange hover:animate-glitch",
       },

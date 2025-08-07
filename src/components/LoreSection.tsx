@@ -6,10 +6,10 @@ const LoreSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-7xl font-black text-neon-green mb-6 animate-neon-pulse">
+          <h2 className="text-5xl md:text-7xl pixel-title text-hot-orange mb-6 animate-neon-pulse">
             THE LORE
           </h2>
-          <div className="w-32 h-1 bg-gradient-neon mx-auto rounded-full"></div>
+          <div className="w-32 h-1 bg-gradient-fire mx-auto rounded-full"></div>
         </div>
 
         {/* Content Grid */}
@@ -79,7 +79,7 @@ const LoreSection = () => {
               <img 
                 src="/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png" 
                 alt="Patriot BONKAT"
-                className="w-full h-40 object-cover rounded-xl shadow-blue hover:scale-105 transition-transform duration-300"
+                className="w-full h-40 object-cover rounded-xl shadow-orange hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>
@@ -87,7 +87,7 @@ const LoreSection = () => {
 
         {/* Quote Section */}
         <div className="mt-20 text-center">
-          <blockquote className="text-2xl md:text-3xl font-bold text-neon-blue italic border-l-4 border-neon-green pl-8 py-4 max-w-4xl mx-auto">
+          <blockquote className="text-2xl md:text-3xl pixel-tagline text-crypto-gold italic border-l-4 border-hot-orange pl-8 py-4 max-w-4xl mx-auto">
             "BONK changed Solana. Now BONKAT is going to change how we PFP."
           </blockquote>
         </div>

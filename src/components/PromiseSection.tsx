@@ -7,7 +7,7 @@ const PromiseSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto text-center">
           {/* Section Header */}
-          <h2 className="text-5xl md:text-7xl font-black text-crypto-gold mb-16 animate-neon-pulse">
+          <h2 className="text-5xl md:text-7xl pixel-title text-crypto-gold mb-16 animate-neon-pulse">
             THE PROMISE
           </h2>
 
@@ -18,7 +18,7 @@ const PromiseSection = () => {
             </p>
             <div className="flex justify-center items-center space-x-8 text-xl md:text-2xl text-foreground/90">
               <span>One pixel at a time.</span>
-              <span className="text-neon-blue">•</span>
+              <span className="text-crypto-gold">•</span>
               <span>One trader at a time.</span>
             </div>
           </div>
@@ -65,15 +65,15 @@ const PromiseSection = () => {
 
           {/* Final CTA */}
           <div className="space-y-8">
-            <div className="text-2xl md:text-3xl font-bold text-neon-blue">
+            <div className="text-2xl md:text-3xl font-bold text-crypto-gold">
               The choice is yours, anon.
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button variant="neon" size="xl" className="min-w-[250px]">
+              <Button variant="default" size="xl" className="min-w-[250px] pixel-font">
                 ADOPT YOUR BONKAT
               </Button>
-              <Button variant="cyber" size="xl" className="min-w-[250px]">
+              <Button variant="cyber" size="xl" className="min-w-[250px] pixel-font">
                 JOIN THE PRIDE
               </Button>
             </div>

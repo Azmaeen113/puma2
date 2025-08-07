@@ -47,7 +47,7 @@ const RotatingBanner = () => {
             onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
               index === currentIndex
-                ? 'bg-neon-green shadow-neon'
+                ? 'bg-hot-orange shadow-orange'
                 : 'bg-foreground/30 hover:bg-foreground/50'
             }`}
           />
