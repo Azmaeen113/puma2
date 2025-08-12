@@ -76,7 +76,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
               >
-                <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain" />
+                <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
               </a>
               
               {/* DexScreener */}
@@ -109,15 +109,7 @@ const Header = () => {
                 <img src="/lovable-uploads/53b5e87e-ec03-4cc3-97d2-e8cf55ff82e3.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
               </a>
               
-              {/* TikTok */}
-              <a 
-                href="#" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 p-1"
-              >
-                <img src="/lovable-uploads/2ef7035f-761c-4646-b3e5-747206462360.png" alt="TikTok" className="w-8 h-8 object-contain" />
-              </a>
+
             </div>
           </nav>
 
@@ -183,7 +175,7 @@ const Header = () => {
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
                     >
-                      <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain" />
+                      <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
                     </a>
                     
                     {/* DexScreener */}
@@ -216,15 +208,7 @@ const Header = () => {
                       <img src="/lovable-uploads/53b5e87e-ec03-4cc3-97d2-e8cf55ff82e3.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
                     </a>
                     
-                    {/* TikTok */}
-                    <a 
-                      href="#" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 p-2"
-                    >
-                      <img src="/lovable-uploads/2ef7035f-761c-4646-b3e5-747206462360.png" alt="TikTok" className="w-8 h-8 object-contain" />
-                    </a>
+
                   </div>
                 </div>
               </div>

@@ -6,7 +6,7 @@ const NameSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Header */}
-          <h2 className="text-4xl md:text-6xl font-black text-hot-orange mb-12">
+          <h2 className="text-4xl md:text-6xl pixel-title text-hot-orange mb-12">
             THE NAME
           </h2>
 
