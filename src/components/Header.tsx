@@ -81,7 +81,7 @@ const Header = () => {
               
               {/* DexScreener */}
               <a 
-                href="#" 
+                href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-1"
@@ -91,7 +91,7 @@ const Header = () => {
               
               {/* Magic Eden */}
               <a 
-                href="#" 
+                href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
@@ -101,7 +101,7 @@ const Header = () => {
               
               {/* CoinGecko */}
               <a 
-                href="#" 
+                href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-1"
@@ -180,7 +180,7 @@ const Header = () => {
                     
                     {/* DexScreener */}
                     <a 
-                      href="#" 
+                      href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-2"
@@ -190,7 +190,7 @@ const Header = () => {
                     
                     {/* Magic Eden */}
                     <a 
-                      href="#" 
+                      href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
@@ -200,7 +200,7 @@ const Header = () => {
                     
                     {/* CoinGecko */}
                     <a 
-                      href="#" 
+                      href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-2"

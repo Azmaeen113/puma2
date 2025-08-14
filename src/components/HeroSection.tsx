@@ -51,7 +51,7 @@ const HeroSection = () => {
               variant="default"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2', '_blank')}
             >
               BUY $BONKAT NOW
             </Button>
@@ -59,7 +59,7 @@ const HeroSection = () => {
               variant="secondary"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://x.com/BonkKats', '_blank')}
             >
               JOIN THE PRIDE
             </Button>
@@ -67,7 +67,7 @@ const HeroSection = () => {
               variant="outline"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj', '_blank')}
             >
               ADOPT YOUR BONKAT
             </Button>

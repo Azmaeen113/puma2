@@ -16,7 +16,7 @@ const Footer = () => {
               Pixel by pixel. Whisker by whisker. Forged in pure degeneracy.
             </p>
             <div className="text-sm text-muted-foreground">
-              Contract Address: <span className="text-crypto-gold font-mono">Coming Soon...</span>
+              Contract Address: <span className="text-crypto-gold font-mono">3cmDoRSZ8fgfpkMV6BgKMk3uvXc6Me1Lyyeest9vbonk</span>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                 Twitter/X
               </a>
               <a 
-                href="#" 
+                href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-neon-blue transition-colors"
@@ -51,7 +51,7 @@ const Footer = () => {
                 DexScreener
               </a>
               <a 
-                href="#" 
+                href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-hot-orange transition-colors"
@@ -59,7 +59,7 @@ const Footer = () => {
                 Magic Eden
               </a>
               <a 
-                href="#" 
+                href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-crypto-gold transition-colors"
