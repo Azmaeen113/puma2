@@ -76,17 +76,17 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
               >
-                <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
+                <img src="/X.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
               </a>
               
-              {/* DexScreener */}
+              {/* TikTok */}
               <a 
                 href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-1"
               >
-                <img src="/lovable-uploads/e378a84a-a087-40e1-9bc2-238a260ab03b.png" alt="DexScreener" className="w-8 h-8 object-contain" />
+                <img src="/tiktok.png" alt="TikTok" className="w-8 h-8 object-contain bg-white rounded" />
               </a>
               
               {/* Magic Eden */}
@@ -96,7 +96,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
               >
-                <img src="/lovable-uploads/95e3a1e0-77c3-4d44-af4c-c80d7e3c26d9.png" alt="Magic Eden" className="w-8 h-8 object-contain" />
+                <img src="/ME.png" alt="Magic Eden" className="w-8 h-8 object-contain" />
               </a>
               
               {/* CoinGecko */}
@@ -106,7 +106,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-1"
               >
-                <img src="/lovable-uploads/53b5e87e-ec03-4cc3-97d2-e8cf55ff82e3.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
+                <img src="/coingecko.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
               </a>
               
 
@@ -167,7 +167,7 @@ const Header = () => {
                 {/* Mobile Social Media Icons */}
                 <div className="mt-auto">
                   <h3 className="text-lg pixel-font text-hot-orange mb-4">Connect</h3>
-                  <div className="grid grid-cols-3 gap-3">
+                  <div className="grid grid-cols-2 gap-3">
                     {/* Twitter/X */}
                     <a 
                       href="https://x.com/PumpPumas" 
@@ -175,17 +175,17 @@ const Header = () => {
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
                     >
-                      <img src="/lovable-uploads/510fed17-3367-4d77-a924-2eca25339b50.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
+                      <img src="/X.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
                     </a>
                     
-                    {/* DexScreener */}
+                    {/* TikTok */}
                     <a 
                       href="#" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-2"
                     >
-                      <img src="/lovable-uploads/e378a84a-a087-40e1-9bc2-238a260ab03b.png" alt="DexScreener" className="w-8 h-8 object-contain" />
+                      <img src="/tiktok.png" alt="TikTok" className="w-8 h-8 object-contain bg-white rounded" />
                     </a>
                     
                     {/* Magic Eden */}
@@ -195,7 +195,7 @@ const Header = () => {
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
                     >
-                      <img src="/lovable-uploads/95e3a1e0-77c3-4d44-af4c-c80d7e3c26d9.png" alt="Magic Eden" className="w-8 h-8 object-contain" />
+                      <img src="/ME.png" alt="Magic Eden" className="w-8 h-8 object-contain" />
                     </a>
                     
                     {/* CoinGecko */}
@@ -205,7 +205,7 @@ const Header = () => {
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-2"
                     >
-                      <img src="/lovable-uploads/53b5e87e-ec03-4cc3-97d2-e8cf55ff82e3.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
+                      <img src="/coingecko.png" alt="CoinGecko" className="w-8 h-8 object-contain" />
                     </a>
                     
 
