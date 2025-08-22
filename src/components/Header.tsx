@@ -42,7 +42,7 @@ const Header = () => {
               }}
               aria-label="Go to home page"
             >
-              $BONKAT
+              $PUMAS
             </div>
           </div>
 
@@ -52,26 +52,26 @@ const Header = () => {
               href="#lore"
               className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
-              The Lore
+              The Origins
             </a>
             <a
               href="#cats"
               className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
-              The Cats
+              The Pumas
             </a>
             <a
               href="#movement"
               className="text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font"
             >
-              Movement
+              The Jungle
             </a>
             
             {/* Social Media Icons */}
             <div className="flex items-center space-x-3 ml-8">
               {/* Twitter/X */}
               <a 
-                href="https://x.com/BonkKats" 
+                href="https://x.com/PumpPumas" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
@@ -81,7 +81,7 @@ const Header = () => {
               
               {/* DexScreener */}
               <a 
-                href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-1"
@@ -91,7 +91,7 @@ const Header = () => {
               
               {/* Magic Eden */}
               <a 
-                href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-1"
@@ -101,7 +101,7 @@ const Header = () => {
               
               {/* CoinGecko */}
               <a 
-                href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-1"
@@ -130,7 +130,7 @@ const Header = () => {
                 {/* Mobile Menu Header */}
                 <div className="flex items-center justify-between mb-8">
                   <div className="text-2xl pixel-title text-hot-orange animate-neon-pulse">
-                    $BONKAT
+                    $PUMAS
                   </div>
                   <Button
                     variant="ghost"
@@ -148,19 +148,19 @@ const Header = () => {
                     onClick={() => scrollToSection('lore')}
                     className="text-left text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font text-lg py-2 border-b border-hot-orange/20"
                   >
-                    The Lore
+                    The Origins
                   </button>
                   <button
                     onClick={() => scrollToSection('cats')}
                     className="text-left text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font text-lg py-2 border-b border-hot-orange/20"
                   >
-                    The Cats
+                    The Pumas
                   </button>
                   <button
                     onClick={() => scrollToSection('movement')}
                     className="text-left text-foreground hover:text-hot-orange transition-colors duration-300 pixel-font text-lg py-2 border-b border-hot-orange/20"
                   >
-                    Movement
+                    The Jungle
                   </button>
                 </nav>
 
@@ -170,7 +170,7 @@ const Header = () => {
                   <div className="grid grid-cols-3 gap-3">
                     {/* Twitter/X */}
                     <a 
-                      href="https://x.com/BonkKats" 
+                      href="https://x.com/PumpPumas" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
@@ -180,7 +180,7 @@ const Header = () => {
                     
                     {/* DexScreener */}
                     <a 
-                      href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
+                      href="#" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-2"
@@ -190,7 +190,7 @@ const Header = () => {
                     
                     {/* Magic Eden */}
                     <a 
-                      href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
+                      href="#" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-hot-orange/50 rounded-lg flex items-center justify-center hover:bg-hot-orange hover:text-primary-foreground transition-all duration-300 shadow-orange p-2"
@@ -200,7 +200,7 @@ const Header = () => {
                     
                     {/* CoinGecko */}
                     <a 
-                      href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
+                      href="#" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 p-2"

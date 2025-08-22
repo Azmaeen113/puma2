@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const RotatingBanner = () => {
   const bannerImages = [
-    '/lovable-uploads/62df90e5-8ee7-47f9-9408-fb303e267103.png',
-    '/lovable-uploads/9fba653d-d2b9-4678-8ef4-a06cf8229ec3.png',
-    '/lovable-uploads/596e2a54-459c-46fb-b8fe-fc93c64aae5c.png',
-    '/lovable-uploads/cb37bcc6-ad2f-4e89-ace3-4be4736f0c8a.png',
-    '/lovable-uploads/0a5bc86f-cd9e-44d7-8122-cecc5366e6f6.png'
+    '/new images/photo_2025-08-22_09-29-33.jpg',
+    '/new images/photo_2025-08-22_09-29-40.jpg',
+    '/new images/photo_2025-08-22_09-29-47.jpg',
+    '/new images/photo_2025-08-22_09-29-57.jpg',
+    '/new images/photo_2025-08-22_09-30-04.jpg'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

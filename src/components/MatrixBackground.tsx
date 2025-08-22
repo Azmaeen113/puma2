@@ -31,11 +31,11 @@ const MatrixBackground = () => {
 
     // Animation function
     const draw = () => {
-      // Semi-transparent black to create fade effect
-      ctx.fillStyle = 'rgba(34, 39, 46, 0.05)';
+      // Semi-transparent dark green to create fade effect
+      ctx.fillStyle = 'rgba(34, 46, 34, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = '#ff6600';
+      ctx.fillStyle = '#00ff00';
       ctx.font = `${fontSize}px 'Courier New', monospace`;
 
       for (let i = 0; i < drops.length; i++) {

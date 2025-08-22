@@ -17,20 +17,20 @@ const NameSection = () => {
             </p>
             
             <div className="text-3xl md:text-5xl pixel-title text-hot-orange my-12 animate-neon-pulse">
-              BONKAT = BONK + CAT
+              PUMAS = PUMP + FUN
             </div>
             
             <p className="text-foreground/90">
               Simple. Sharp. Sticky.
               <br />
-              <span className="text-crypto-gold font-semibold">It rolls off your tongue like a fresh 10x.</span>
+              <span className="text-crypto-gold font-semibold pixel-font">It rolls off your tongue like a fresh 10x.</span>
             </p>
             
             <div className="bg-card/50 border border-hot-orange/30 rounded-xl p-8 mt-12">
               <p className="text-xl md:text-2xl pixel-tagline text-crypto-gold">
-                Because <span className="text-hot-orange">BONK</span> changed Solana.
+                Because <span className="text-hot-orange pixel-font">PUMPFUN</span> changed Solana.
                 <br />
-                And now <span className="text-hot-orange">BONKAT</span> is going to change how we PFP.
+                And now <span className="text-hot-orange pixel-font">$PUMAS</span> is going to change how we hunt.
               </p>
             </div>
           </div>
@@ -38,8 +38,8 @@ const NameSection = () => {
           {/* Featured Image */}
           <div className="mt-16">
             <img
-              src="/lovable-uploads/5fc7e9f5-9724-4b85-b3e5-b3e78dd2f64a.png"
-              alt="FAIRYING BONKAT"
+              src="/new images/photo_2025-08-22_09-30-22.jpg"
+              alt="Pumpfun Puma"
               className="w-64 h-64 md:w-80 md:h-80 mx-auto object-contain rounded-xl shadow-glow hover:scale-105 transition-transform duration-300"
             />
           </div>

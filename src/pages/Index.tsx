@@ -35,9 +35,9 @@ const Index = () => {
       <div className="fixed bottom-8 right-8 z-50">
         <button 
           className="bg-gradient-fire text-primary-foreground px-6 py-3 rounded-full pixel-font shadow-orange hover:scale-110 transition-transform duration-300 animate-float"
-          onClick={() => window.open('https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2', '_blank')}
+          onClick={() => window.open('#', '_blank')}
         >
-          Buy $BONKAT
+          Buy $PUMAS
         </button>
       </div>
     </div>

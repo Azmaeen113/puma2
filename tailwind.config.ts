@@ -62,7 +62,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// BONKAT Colors - Orange, Yellow, Black, White Only
+				// Green Colors - Green, Light Green, Dark Green, White Only
 				'hot-orange': 'hsl(var(--hot-orange))',
 				'crypto-gold': 'hsl(var(--crypto-gold))',
 				'matrix-black': 'hsl(var(--matrix-black))',

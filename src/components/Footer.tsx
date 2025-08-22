@@ -8,12 +8,12 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="text-3xl pixel-title text-hot-orange mb-4 animate-neon-pulse">
-              $BONKAT
+              $PUMAS
             </div>
             <p className="text-foreground/70 mb-4">
-              The first bonkified cats on Solana. 
+              The Pumpfun Pumas on Solana. 
               <br />
-              Pixel by pixel. Whisker by whisker. Forged in pure degeneracy.
+              Born to pump, never to dump. Forged in pure degen energy.
             </p>
             <div className="text-sm text-muted-foreground">
               Contract Address: <span className="text-crypto-gold font-mono">3cmDoRSZ8fgfpkMV6BgKMk3uvXc6Me1Lyyeest9vbonk</span>
@@ -24,9 +24,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg pixel-font text-hot-orange mb-4">Navigate</h3>
             <div className="space-y-2">
-              <a href="#lore" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Lore</a>
-              <a href="#cats" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Cats</a>
-              <a href="#movement" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Movement</a>
+              <a href="#lore" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Origins</a>
+              <a href="#cats" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Pumas</a>
+              <a href="#movement" className="block text-foreground/70 hover:text-hot-orange transition-colors">The Jungle</a>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-neon-blue mb-4 uppercase">Connect</h3>
             <div className="space-y-2">
               <a 
-                href="https://x.com/BonkKats" 
+                href="https://x.com/PumpPumas" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-hot-orange transition-colors"
@@ -43,7 +43,7 @@ const Footer = () => {
                 Twitter/X
               </a>
               <a 
-                href="https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-neon-blue transition-colors"
@@ -51,7 +51,7 @@ const Footer = () => {
                 DexScreener
               </a>
               <a 
-                href="https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-hot-orange transition-colors"
@@ -59,7 +59,7 @@ const Footer = () => {
                 Magic Eden
               </a>
               <a 
-                href="https://www.geckoterminal.com/solana/pools/GT5STsiD5EEN4t96bVKpgRyS8L1nDV9djb5LqMBbZGV2?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-foreground/70 hover:text-crypto-gold transition-colors"
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-hot-orange/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © 2024 BONKAT. All rights reserved. Built for degens, by degens.
+            © 2024 $PUMAS. All rights reserved. Built for hunters, by hunters.
           </div>
           
           <div className="flex space-x-6 text-sm">
@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Matrix Code Footer */}
         <div className="mt-8 text-center">
           <div className="text-xs font-mono text-hot-orange/30 animate-pulse">
-            01000010 01001111 01001110 01001011 01000001 01010100
+            01010000 01010101 01001101 01000001 01010011
           </div>
         </div>
       </div>

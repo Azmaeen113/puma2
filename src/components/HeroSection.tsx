@@ -17,22 +17,22 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Main Headline */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl pixel-title mb-8 animate-neon-pulse">
-            <span className="text-hot-orange">$BONKAT</span>
+            <span className="text-hot-orange">$PUMAS</span>
           </h1>
 
           {/* Subheading */}
           <h2 className="text-2xl md:text-4xl lg:text-5xl pixel-title mb-6 text-hot-orange">
-            THE FIRST BONKIFIED CATS
+            THE PUMPFUN PUMAS
           </h2>
 
-          {/* Hero Sticker Image */}
+          {/* Hero Main Image */}
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/sticker.webp"
-              alt="BONKAT Sticker"
-              className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain hover:scale-110 transition-all duration-500"
+              src="/pfff.jpeg"
+              alt="Pumpfun Puma"
+              className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full hover:scale-110 transition-all duration-500"
               style={{
-                filter: 'drop-shadow(0 0 30px rgba(255, 102, 0, 0.6))',
+                filter: 'drop-shadow(0 0 30px rgba(0, 255, 0, 0.6))',
                 animation: 'glow-pulse 3s ease-in-out infinite'
               }}
             />
@@ -40,9 +40,9 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl lg:text-2xl pixel-tagline text-pure-white mb-12 max-w-4xl mx-auto leading-relaxed">
-            Solana-native pixel cats engineered in pure degeneracy.
+            Born to pump, never to dump.
             <br />
-            <span className="text-crypto-gold font-semibold">They don't meow—they yowl when volume's dry and purr when the pump is live.</span>
+            <span className="text-crypto-gold font-semibold pixel-font">Sleek, pixel-pawed predators wearing the legendary colorways of Pumpfun itself.</span>
           </p>
 
           {/* CTA Buttons */}
@@ -51,25 +51,25 @@ const HeroSection = () => {
               variant="default"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('https://dexscreener.com/solana/gt5stsid5een4t96bvkpgrys8l1ndv9djb5lqmbbzgv2', '_blank')}
+              onClick={() => window.open('#', '_blank')}
             >
-              BUY $BONKAT NOW
+              BUY $PUMAS NOW
             </Button>
             <Button
               variant="secondary"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('https://x.com/BonkKats', '_blank')}
+              onClick={() => window.open('https://x.com/PumpPumas', '_blank')}
             >
-              JOIN THE PRIDE
+              JOIN THE JUNGLE
             </Button>
             <Button
               variant="outline"
               size="xl"
               className="min-w-[200px] cursor-pointer hover:scale-105 transition-all duration-300 pixel-font"
-              onClick={() => window.open('https://magiceden.us/marketplace/8j76Sk14xUUwH3cALekScTRpBJXHR4gudREN4ab1BjLj', '_blank')}
+              onClick={() => window.open('#', '_blank')}
             >
-              ADOPT YOUR BONKAT
+              ADOPT YOUR PUMA
             </Button>
           </div>
 
@@ -80,7 +80,7 @@ const HeroSection = () => {
 
           {/* Scrolling text ticker */}
           <div className="text-hot-orange text-sm pixel-font animate-pulse">
-            &gt; BONK OR DIE &gt; ENTER THE MATRIX &gt; PURE DEGENERACY &gt; PIXEL BY PIXEL &gt; WHISKER BY WHISKER &gt;
+            &gt; BORN TO PUMP &gt; NEVER TO DUMP &gt; PUMA JUNGLE &gt; HUNT THE CHARTS &gt; DIAMOND PAWS &gt;
           </div>
         </div>
       </div>
