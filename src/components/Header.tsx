@@ -79,14 +79,14 @@ const Header = () => {
                 <img src="/X.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
               </a>
               
-              {/* TikTok */}
+              {/* DexScreener */}
               <a 
                 href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-1"
               >
-                <img src="/tiktok.png" alt="TikTok" className="w-8 h-8 object-contain bg-white rounded" />
+                <img src="/dexscreener.png" alt="DexScreener" className="w-8 h-8 object-contain bg-white rounded" />
               </a>
               
               {/* Magic Eden */}
@@ -178,14 +178,14 @@ const Header = () => {
                       <img src="/X.png" alt="X" className="w-8 h-8 object-contain bg-white rounded" />
                     </a>
                     
-                    {/* TikTok */}
+                    {/* DexScreener */}
                     <a 
                       href="#" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-card border border-crypto-gold/50 rounded-lg flex items-center justify-center hover:bg-crypto-gold hover:text-primary-foreground transition-all duration-300 shadow-gold p-2"
                     >
-                      <img src="/tiktok.png" alt="TikTok" className="w-8 h-8 object-contain bg-white rounded" />
+                      <img src="/dexscreener.png" alt="DexScreener" className="w-8 h-8 object-contain bg-white rounded" />
                     </a>
                     
                     {/* Magic Eden */}
