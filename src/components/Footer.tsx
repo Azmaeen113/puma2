@@ -16,7 +16,7 @@ const Footer = () => {
               Born to pump, never to dump. Forged in pure degen energy.
             </p>
             <div className="text-sm text-muted-foreground">
-              Contract Address: <span className="text-crypto-gold font-mono">3cmDoRSZ8fgfpkMV6BgKMk3uvXc6Me1Lyyeest9vbonk</span>
+              Contract Address: <span className="text-crypto-gold font-mono">C58gn9McQRTf6ke64e47naNLCAsACuAMRMWGCUT8pump</span>
             </div>
           </div>
 
