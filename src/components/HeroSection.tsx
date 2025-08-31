@@ -38,6 +38,25 @@ const HeroSection = () => {
             />
           </div>
 
+          {/* Contract Address Box */}
+          <div className="flex justify-center mb-8">
+            <div className="bg-black/40 backdrop-blur-sm border border-hot-orange rounded-lg px-4 py-2 shadow-lg hover:shadow-hot-orange/30 transition-all duration-300">
+              <div className="flex items-center gap-3">
+                <code className="text-sm text-crypto-gold font-mono select-all cursor-pointer hover:text-hot-orange transition-colors duration-200">
+                  C58gn9McQRTf6ke64e47naNLCAsACuAMRMWGCUT8pump
+                </code>
+                <button 
+                  className="text-xs text-hot-orange hover:text-crypto-gold transition-colors duration-200 pixel-font underline"
+                  onClick={() => {
+                    navigator.clipboard.writeText('C58gn9McQRTf6ke64e47naNLCAsACuAMRMWGCUT8pump');
+                  }}
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
+          </div>
+
           {/* Description */}
           <p className="text-lg md:text-xl lg:text-2xl pixel-tagline text-pure-white mb-12 max-w-4xl mx-auto leading-relaxed">
             Born to pump, never to dump.
