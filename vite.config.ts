@@ -16,4 +16,12 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      external: [],
+    },
+  },
+  optimizeDeps: {
+    exclude: ['@rollup/rollup-linux-x64-gnu', '@rollup/rollup-linux-x64-musl', '@rollup/rollup-darwin-x64', '@rollup/rollup-darwin-arm64', '@rollup/rollup-win32-x64-msvc']
+  }
 }));
